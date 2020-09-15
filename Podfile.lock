@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.2.1)
+  - Framework (1.0.0):
+    - Alamofire (= 5.2.1)
+
+DEPENDENCIES:
+  - Framework (from `https://github.com/lijingcheng/Framework.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  Framework:
+    :git: https://github.com/lijingcheng/Framework.git
+
+CHECKOUT OPTIONS:
+  Framework:
+    :commit: 58470b114c92daac7e252034f1361ad4fcbef775
+    :git: https://github.com/lijingcheng/Framework.git
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  Framework: a1ca76d65959ee02d40e7c49a6d6e7008f24737d
+
+PODFILE CHECKSUM: ee63436473f436255f51b95eed633fb1d8208ec9
+
+COCOAPODS: 1.9.3

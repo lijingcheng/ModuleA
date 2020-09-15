@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ModuleA View Controller-->
+        <scene sceneID="MMg-Ug-Upz">
+            <objects>
+                <viewController storyboardIdentifier="ModuleAViewController" id="QAf-AP-lrg" customClass="ModuleAViewController" customModule="ModuleA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zoz-15-dA1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="进入ModuleA___DetailViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eas-RV-QF3">
+                                <rect key="frame" x="15" y="88" width="384" height="30"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LCA-bF-03l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="vkq-Yt-scN" appends="YES" id="mQW-kM-HKs"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="进入ModuleB___ViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYX-wh-FBL">
+                                <rect key="frame" x="15" y="148" width="384" height="30"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="LKF-N1-ctI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hGa-Jh-GxS" appends="YES" id="f9V-Xj-x2J"/>
+                                </connections>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SYX-wh-FBL" firstAttribute="top" secondItem="eas-RV-QF3" secondAttribute="bottom" constant="30" id="7Yy-Dt-JQM"/>
+                            <constraint firstItem="eas-RV-QF3" firstAttribute="leading" secondItem="mQ3-Sm-ObE" secondAttribute="leading" constant="15" id="Iib-Xx-afd"/>
+                            <constraint firstItem="mQ3-Sm-ObE" firstAttribute="trailing" secondItem="eas-RV-QF3" secondAttribute="trailing" constant="15" id="JtV-tR-la8"/>
+                            <constraint firstItem="eas-RV-QF3" firstAttribute="top" secondItem="mQ3-Sm-ObE" secondAttribute="top" constant="44" id="L5B-Uz-pEW"/>
+                            <constraint firstItem="SYX-wh-FBL" firstAttribute="leading" secondItem="mQ3-Sm-ObE" secondAttribute="leading" constant="15" id="b8n-k6-li4"/>
+                            <constraint firstItem="mQ3-Sm-ObE" firstAttribute="trailing" secondItem="SYX-wh-FBL" secondAttribute="trailing" constant="15" id="dEL-Ve-xwp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mQ3-Sm-ObE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9JZ-uK-kah" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="vkq-Yt-scN">
+                    <connections>
+                        <action selector="openModuleADetailViewController:" destination="QAf-AP-lrg" id="NeZ-Uu-idr"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="hGa-Jh-GxS">
+                    <connections>
+                        <action selector="openModuleBViewController:" destination="QAf-AP-lrg" id="F2V-oT-ypf"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="61" y="178"/>
+        </scene>
+        <!--ModuleA Detail View Controller-->
+        <scene sceneID="4Go-7x-IyD">
+            <objects>
+                <viewController storyboardIdentifier="ModuleADetailViewController" id="kGB-zf-dOS" customClass="ModuleADetailViewController" customModule="ModuleA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AVB-Lv-Qdx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ModuleA___DetailViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLX-3B-dhU">
+                                <rect key="frame" x="84.5" y="438" width="245.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pLX-3B-dhU" firstAttribute="centerY" secondItem="AVB-Lv-Qdx" secondAttribute="centerY" id="17M-IX-QDK"/>
+                            <constraint firstItem="pLX-3B-dhU" firstAttribute="centerX" secondItem="AVB-Lv-Qdx" secondAttribute="centerX" id="70x-5c-WHM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mNR-LG-2Dt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e61-L1-blt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768" y="177"/>
+        </scene>
+    </scenes>
+</document>
