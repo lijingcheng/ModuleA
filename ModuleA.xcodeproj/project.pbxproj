@@ -33,7 +33,6 @@
 		F382102E250F613F00F3D032 /* ModuleAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleAViewController.swift; sourceTree = "<group>"; };
 		F3821030250F615800F3D032 /* ModuleADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleADetailViewController.swift; sourceTree = "<group>"; };
 		F3821032250F617E00F3D032 /* ModuleA.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModuleA.storyboard; sourceTree = "<group>"; };
-		F3821160251091A100F3D032 /* ModuleA-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModuleA-Swift.h"; sourceTree = "<group>"; };
 		F38211D92510A42800F3D032 /* ModuleA.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ModuleA.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -90,7 +89,6 @@
 				F382102D250F612800F3D032 /* Class */,
 				F3820FB9250F5FEE00F3D032 /* AppDelegate.swift */,
 				F3820FBD250F5FEE00F3D032 /* ViewController.swift */,
-				F3821160251091A100F3D032 /* ModuleA-Swift.h */,
 				F3820FBF250F5FEE00F3D032 /* Main.storyboard */,
 				F3820FC2250F5FF100F3D032 /* Assets.xcassets */,
 				F38211D92510A42800F3D032 /* ModuleA.podspec */,

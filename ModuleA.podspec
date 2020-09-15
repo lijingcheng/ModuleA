@@ -9,7 +9,7 @@ s.summary = 'ModuleA.'
 s.static_framework = true
 s.swift_version = '5.2'
 s.ios.deployment_target = '10.0'
-s.source_files = 'ModuleA/ModuleA-Swift.h', 'ModuleA/Class/*.swift'
+s.source_files = 'ModuleA/Class/*.swift'
 
 s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
